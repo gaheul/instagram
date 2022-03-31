@@ -111,12 +111,22 @@ body {
 
 .input-items label {
     position: absolute;
+    top: 10px;
+    left: 8px;
+    font-size: 13px;
+    font-weight: 300;
+    color: rgb(142, 142, 142);
+    transition: 0.5s;
+}
+
+/* .input-items label {
+    position: absolute;
     top: 2px;
     left: 8px;
     font-size: 11px;
     font-weight: 300;
     color: rgb(142, 142, 142);
-}
+} */
 
 .input-items input {
     border: 1px solid #dbdbdb;
