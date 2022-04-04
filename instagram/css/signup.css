@@ -151,15 +151,10 @@
 
 .password-visible{
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
-
-    padding: 3px;
     margin-right: 8px;
-    font-weight: 500;
-    color:#262626;
-    width: 100%;
-    max-width: 85px;
+    white-space: nowrap;
     cursor: pointer;
 }
 

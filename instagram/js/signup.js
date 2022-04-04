@@ -3,6 +3,15 @@ const password_visible = document.querySelector('.password-visible');
 
 password_visible.onclick = () => {
     //input type = text (attribute) / 비밀번호표시 숨기기(innerhtml,inntertext)
+    const input = input_datas[3].querySelector('input');
+   // console.log(input.type);
+    if(input.type == 'password'){
+        input.type = 'text';
+        password_visible.innerText = '숨기기';
+    }else{
+        input.type = 'password';
+        password_visible.innerText = '비밀번호 표시';
+    }
 }
 
 
